@@ -141,8 +141,8 @@ val testCoverage by tasks.registering {
 
 sonarqube {
     properties {
-        property("sonar.projectKey", "be-student-testtest")
-        property("sonar.organization", "be-student-testtest_testtest")
+        property("sonar.projectKey", "be-student-testtest_testtest")
+        property("sonar.organization", "be-student-testtest")
         property("sonar.host.url", "https://sonarcloud.io")
         property("sonar.coverage.jacoco.xmlReportPaths", "build/reports/jacoco/test/jacocoTestReport.xml")
         property("sonar.java.checkstyle.reportPaths", "build/reports/checkstyle/main.xml")
